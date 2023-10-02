@@ -75,14 +75,14 @@ Para asegurar la conveniencia del usuario y éxito de tu proyecto, has creado un
 
 * Este contrato `Cuy Collection Nft` implementa el estándar ERC721 que debe ser convertido a actualizable.
 * Posee el método `safeMint(address to, uint256 tokenId) public onlyRole(MINTER_ROLE)` que solo puede ser llamado por el `Relayer` de Open Zeppelin en `Mumbai`. Los ids permitidos van del `0` al `999` para este método. Lleva el modifier `whenNotPaused`.
-* Posee el método `safeMintWhiteList(address to, uint256 tokenId, bytes32[] proofs) public` que será llamado por cada una de las 1000 billeteras de la lista blanca. Internamente este método valida que `to` y `tokenId` sean parte de la lista. Así también, se debe habilitar en el front-end una manera de solicitar las pruebas. Dado un `address` y un `uint256`, el front-end te entregará el array de pruebas a usarse como argumento de este émtéodo. Lleva `whenNotPaused`. Puede ser llamado por cualquiera.
+* Posee el método `safeMintWhiteList(address to, uint256 tokenId, bytes32[] proofs) public` que será llamado por cada una de las 1000 billeteras de la lista blanca. Internamente este método valida que `to` y `tokenId` sean parte de la lista. Así también, se debe habilitar en el front-end una manera de solicitar las pruebas. Dado un `address` y un `uint256`, el front-end te entregará el array de pruebas a usarse como argumento de este método. Lleva `whenNotPaused`. Puede ser llamado por cualquiera.
 * Posee el método `buyBack(uint256 id) public` que permite a los dueños de los ids en el rango de `1000` y `1999` (inclusivo) quemar sus NFTs a cambio de un repago de `BBTKN` en la red de Ethereum (`Goerli`). Este método emite el evento `Burn(address account, uint256 id)` que finalmente, cross-chain, dispara `mint()` en el token `BBTKN` en la cantidad de `10,000` BBTKNs.
 
 ### 3 - Contrato `Public Sale`
 
 * Este contrato de `Public Sale` se publica en Ethereum (`Goerli`). Sirve como intermediario para poder realizar el pago para adquirir NFTs.
 
-* La comunicación entre el contrato de `Public Sale` y el contrato de NFTs se dará a través de Open Zeppelin Defender. El contrato de Compra y Venta emite eventos que serán escuchados por Open Zeppelin Defender, que a su vez ordenará al contrato de NFT en Polygon (`Mumbai`) de acuñar un determinado NFT.
+* La comunicación entre el contrato de `Public Sale` y el contrato de NFTs se dará a través de Open Zeppelin Defender. El contrato de `Public Sale` emite eventos que serán escuchados por Open Zeppelin Defender, que a su vez ordenará al contrato de NFT en Polygon (`Mumbai`) de acuñar un determinado NFT.
 
 * Los ids para la venta usando `BBTKN` o `USDC` van del `0` hasta el `699` y tienen diferentes rangos de precio.
 
@@ -104,7 +104,7 @@ Para asegurar la conveniencia del usuario y éxito de tu proyecto, has creado un
 
 * La primera manera de compra es usando los `BBTKN` tokens. El método a usar es `purchaseWithTokens(uint256 _id)` y el usuario escoge el id a comprar y se emite el evento. Estos tokens se transfieren al contrato `Public Sale`. Aplica para ids en el rango `0 - 699`.
 
-* La segunda manera de compra es usando `USDC`. El método a usar es `purchaseWithUSDC(uint256 _id)` y el usuario escoge el id a comprar y se emite el evento. Internamente, en este método se usa el pool de liquidez para intercambiar los `USDC` por una cantidad exacta de `BBTKN`. Aplica para ids en el rango `0 - 699`.  Dado que no se sabe la cantidad de `USDC` a depositar, se sugiere dar el `approve` de un monton seguro. Este método tiene que dar el vuelto del `USDC` que no se llegó a usar en la compra.
+* La segunda manera de compra es usando `USDC`. El método a usar es `purchaseWithUSDC(uint256 _id)` y el usuario escoge el id a comprar y se emite el evento. Internamente, en este método se usa el pool de liquidez para intercambiar los `USDC` por una cantidad exacta de `BBTKN`. Aplica para ids en el rango `0 - 699`.  Dado que no se sabe la cantidad de `USDC` a depositar, se sugiere dar el `approve` de un monto seguro por parte del usuario. Este método tiene que dar el vuelto del `USDC` que no se llegó a usar en la compra.
 
   **BONUS:** Para obtener un estimado de cuántos `USDC` se necesitan para comprar una cantidad exacta de `BBTKN`, revisar [getAmountIn](https://docs.uniswap.org/contracts/v2/reference/smart-contracts/library#getamountin) de Uniswap. El usuario, antes de comprar bajo este método, puede consultar `getAmountIn` y dar el `approve` en dicha cantidad de `USDC` estimada. Exponer `getAmountIn` en este contrato.
 
@@ -114,9 +114,9 @@ Para asegurar la conveniencia del usuario y éxito de tu proyecto, has creado un
 
 * El evento que se emite luego de realizar cualquier compra tiena la siguiente forma: `event PurchaseNftWithId(address account, uint256 id)`.
 
-* El método llamado `withdrawEther() public onlyRole(DEFAULT_ADMIN)` permite a cualquier admin transferirse el `ether` que fue depositado a este contrato.
+* El método llamado `withdrawEther() public onlyRole(DEFAULT_ADMIN_ROLE)` permite a cualquier admin transferirse el `ether` que fue depositado a este contrato.
 
-* El método llamado `withdrawTokens() public onlyRole(DEFAULT_ADMIN)` permite a cualquier admin transferirse los tokens `BBTKN` que fueron depositados a este contrato.
+* El método llamado `withdrawTokens() public onlyRole(DEFAULT_ADMIN_ROLE)` permite a cualquier admin transferirse los tokens `BBTKN` que fueron depositados a este contrato.
 
 * Construir un método de ayuda que devuelve el precio dado un id. Este método se llamará `getPriceForId(uint256 id) public view returns(uint256)`. Solo aplica para ids en el rango `0` y `699` (inclusivo).
 
@@ -205,7 +205,7 @@ Crear un front-end minimalista para poder interactuar con el contrato de `Public
 3. Contrato de `Public Sale`
 4. Stable Coin `USDC` ficticio
 5. Autotask: `Goerli` a `Mumbai`. Incluye código en `goerliToMumbai.js`.
-6. OZAutotask: `Mumbai` a `Goerli`. Incluye código en `mumbaiToGoerli.js`.
+6. Autotask: `Mumbai` a `Goerli`. Incluye código en `mumbaiToGoerli.js`.
 7. Pool de liquidez en Uniswap V2
 8. Front-end con los métodos implementados del punto `8 - Front-end`
 9. Testing con alta cobertura para `Public Sale`
