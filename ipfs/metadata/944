@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#944",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/944.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO PACHACUY"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "METAL"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY CEMENTO"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO CAJAMARCA"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "OJOS BASE"
+    }
+  ]
+}

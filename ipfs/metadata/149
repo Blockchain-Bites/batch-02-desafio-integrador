@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#149",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/149.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO COSTA"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "EGIPCIO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY FUEGO"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "INCA"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "COVID"
+    }
+  ]
+}

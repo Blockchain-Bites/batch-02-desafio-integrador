@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#1827",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/1827.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO TIERRA"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "TRONCO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY MARRON"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO CAJAMARCA"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "RAVE"
+    }
+  ]
+}

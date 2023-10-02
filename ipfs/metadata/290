@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#290",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/290.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO FELICIDAD"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "HUACO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY HUACO"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO CUSCO"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "OJOS BASE"
+    }
+  ]
+}

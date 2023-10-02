@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#1948",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/1948.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO TIERRA"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "METAL"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY CEMENTO"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "GANGSTER"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "OJOS BASE"
+    }
+  ]
+}

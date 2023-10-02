@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#7",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/7.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO ALIEN"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "GRIEGO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY FUEGO"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO PERU"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "LENTES"
+    }
+  ]
+}

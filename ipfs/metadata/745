@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#745",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/745.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO SIERRA"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "HUACO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY HIELO"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO TURISTA"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "OJOS BASE"
+    }
+  ]
+}

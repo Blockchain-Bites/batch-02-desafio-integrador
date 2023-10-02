@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#1621",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/1621.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO ALIEN"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "AMOR"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY FUEGO"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "GANGSTER"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "OJOS BASE"
+    }
+  ]
+}

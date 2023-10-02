@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#1796",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/1796.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO COSTA"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "HIELO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY MANDINGO"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO CAJAMARCA"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "LENTES"
+    }
+  ]
+}

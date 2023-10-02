@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#1844",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/1844.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO FRIO"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "HUACO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY PLATA"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO CAJAMARCA"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "OJOS BASE"
+    }
+  ]
+}

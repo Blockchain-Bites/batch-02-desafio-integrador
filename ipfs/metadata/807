@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#807",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/807.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO NASCA"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "HUACO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY ORO"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO CAJAMARCA"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "CYCLOP"
+    }
+  ]
+}

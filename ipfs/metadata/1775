@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#1775",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/1775.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO MARINO"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "HUACO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY MANDINGO"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO ROJO"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "COVID"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#1242",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/1242.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO FUEGO"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "HUACO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY ALIEN"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "GORRO PACHACUY"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "OJOS BASE"
+    }
+  ]
+}

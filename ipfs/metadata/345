@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#345",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/345.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO SIERRA"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "HUACO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY HUACO"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO CAJAMARCA"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "COVID"
+    }
+  ]
+}

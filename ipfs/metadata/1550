@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#1550",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/1550.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO FELICIDAD"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "METAL"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY HIELO"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "FORASTERO"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "OJOS BASE"
+    }
+  ]
+}

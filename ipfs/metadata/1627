@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#1627",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/1627.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "METAVERSO"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "HUACO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY MARRON"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO BUFON"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "COVID"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#1611",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/1611.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO SIERRA"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "TRONCO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY HIELO"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "FORASTERO"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "CYCLOP"
+    }
+  ]
+}

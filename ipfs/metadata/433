@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#433",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/433.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO FELICIDAD"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "HIELO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY MARRON"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO CAJAMARCA"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "LASER"
+    }
+  ]
+}

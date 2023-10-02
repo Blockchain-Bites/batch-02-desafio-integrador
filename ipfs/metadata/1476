@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#1476",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/1476.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "METAVERSO"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "EGIPCIO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY CEMENTO"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO MORADO"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "LASER"
+    }
+  ]
+}

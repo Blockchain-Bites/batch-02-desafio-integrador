@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#1111",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/1111.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO TIERRA"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "METAL"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY HUACO"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO MORADO"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "CYCLOP"
+    }
+  ]
+}

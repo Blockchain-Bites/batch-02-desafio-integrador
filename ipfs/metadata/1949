@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#1949",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/1949.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "METAVERSO"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "METAL"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY HIELO"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO PERU"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "OJOS BASE"
+    }
+  ]
+}

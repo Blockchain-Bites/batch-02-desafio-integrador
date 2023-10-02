@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#1102",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/1102.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO MARINO"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "EGIPCIO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY PLATA"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO SELVA"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "BROMA"
+    }
+  ]
+}

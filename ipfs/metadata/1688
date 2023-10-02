@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#1688",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/1688.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO FUEGO"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "GRIEGO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY MARRON"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO PESCADOR"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "CYCLOP"
+    }
+  ]
+}

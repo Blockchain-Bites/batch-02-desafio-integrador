@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#230",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/230.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO COSTA"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "ROCA"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY HIELO"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO PESCADOR"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "RAVE"
+    }
+  ]
+}

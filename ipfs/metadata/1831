@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#1831",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/1831.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "METAVERSO"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "TRONCO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY ALIEN"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO CAJAMARCA"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "LASER"
+    }
+  ]
+}

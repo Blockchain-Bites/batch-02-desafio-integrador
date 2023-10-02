@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+</head>
+
+<body>
+    <div>
+        <h2>Log In</h2>
+        <button id="connect">Conectar con Metamask</button>
+        <div>Connectada con cuenta: <span id="walletId"></span></div>
+    </div>
+
+    </br>
+    <h2>Balances de USDC y BBTKN</h2>
+    <div>
+        <label for="usdcBalance">USD Coin Balance:</label>
+        <span id="usdcBalance"></span>
+        <button id="usdcUpdate">Refresh</button>
+    </div>
+    <div>
+        <label for="bbitesTknBalance">BBites Token Balance:</label>
+        <span id="bbitesTknBalance"></span>
+        <button id="bbitesTknUpdate">Refresh</button>
+    </div>
+    </br>
+
+    <h2>Approves (USDC y BBToken) en Goerli</h2>
+    <div>
+        <label for="approveInput">Approve BBites Token a Public Sale</label>
+        <input type="text" id="approveInput" name="approveInput" placeholder="# BBtokens to approve">
+        <button id="approveButtonBBTkn">Approve</button>
+        <span id="approveError" style="color: red;"></span>
+    </div>
+
+    </br>
+    <div>
+        <label for="approveInputUSDC">Approve USDC a Public Sale</label>
+        <input type="text" id="approveInputUSDC" name="approveInputUSDC" placeholder="# USDC to approve">
+        <button id="approveButtonUSDC">Approve</button>
+        <span id="approveErrorUSDC" style="color: red;"></span>
+    </div>
+
+    </br>
+    <h2>Comprando NFTs en Public Sale en Goerli</h2>
+    <div>
+        <label for="purchaseInput">Purchase By Id with BBites tokens (0 - 699)</label>
+        <input type="text" id="purchaseInput" name="purchaseInput" placeholder="NFT id">
+        <button id="purchaseButton">Purchase</button>
+        <span id="purchaseError" style="color: red;"></span>
+    </div>
+
+    </br>
+    <div>
+        <label for="purchaseInputUSDC">Purchase By Id with USDC (0 - 699)</label>
+        <input type="number" id="purchaseInputUSDC" name="purchaseInputUSDC" placeholder="NFT id">
+        <input type="number" id="amountInUSDCInput" name="amountInUSDCInput" placeholder="UDSC amount in">
+        <button id="purchaseButtonUSDC">Purchase</button>
+        <span id="purchaseErrorUSDC" style="color: red;"></span>
+    </div>
+
+    </br>
+    <div>
+        <label for="purchaseInputEtherId">Purchase By Id With Ether (700 - 999)</label>
+        <input type="text" id="purchaseInputEtherId" name="purchaseInputEtherId" placeholder="NFT id">
+        <button id="purchaseButtonEtherId">Purchase</button>
+        <span id="purchaseEtherIdError" style="color: red;"></span>
+    </div>
+
+    </br>
+    <div>
+        <label for="sendEtherInput">Send Ether to Public Sale (random 700 - 999)</label>
+        <button id="sendEtherButton">Send</button>
+        <span id="sendEtherError" style="color: red;"></span>
+    </div>
+
+    </br>
+    <div>
+        <label for="priceNftIdInput">Consult NFT price by id</label>
+        <input type="number" id="priceNftIdInput" name="priceNftIdInput" placeholder="NFT id">
+        <button id="getPriceNftByIdBttn">Get Price</button>
+        <span id="priceNftByIdText"></span>
+        <span id="getPriceNftError" style="color: red;"></span>
+    </div>
+
+    </br>
+    <h2>Acuñando de whitelist en NFT Contract en Mumbai</h2>
+    <div>
+        <label for="priceNftIdInput">Get proofs for id and account:</label>
+        <input type="number" id="inputIdProofId" name="inputIdProof" placeholder="NFT id">
+        <input type="text" id="inputAccountProofId" name="inputAccountProof" placeholder="Account">
+        <button id="getProofsButtonId">Print and Copy To Clipboard</button>
+        <span id="showProofsTextId"></span>
+    </div>
+
+    </br>
+    <div>
+        <label for="priceNftIdInput">Mint with Whitelist:</label>
+        <input type="text" id="whiteListToInputId" name="whiteListToInput" placeholder="to">
+        <input type="number" id="whiteListToInputTokenId" name="whiteListToInputToken" placeholder="tokenId">
+        <input type="text" id="whiteListToInputProofsId" name="whiteListToInputProofs" placeholder="proofs">
+        <button id="safeMintWhiteListBttnId">Safe Mint</button>
+        <span id="whiteListErrorId" style="color: red;"></span>
+    </div>
+
+    </br>
+    <div>
+        <label for="buyBackInputId">Buy Back and Burn NFT:</label>
+        <input type="number" id="buyBackInputId" name="buyBackInput" placeholder="NFT id">
+        <button id="buyBackBttn">Buy Back and Burn</button>
+        <span id="buyBackErrorId" style="color: red;"></span>
+    </div>
+
+    </br>
+    <h2>Eventos</h2>
+    <h3>Contrato Public Sale (Goerli)</h3>
+    <div id="pubSList"></div>
+
+    <h3>Contrato BBites Token (Goerli)</h3>
+    <div id="bbitesTList"></div>
+
+    <h3>Contrato NFT (Mumbai) </h3>
+    <div id="nftList"></div>
+    <div id="burnList"></div>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#679",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/679.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO FELICIDAD"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "HUACO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY PLATA"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "GORRO PACHACUY"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "OJOS BASE"
+    }
+  ]
+}

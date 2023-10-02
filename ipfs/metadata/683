@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#683",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/683.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO MOCHE"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "GRIEGO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY PLATA"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "GANGSTER"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "OJOS BASE"
+    }
+  ]
+}

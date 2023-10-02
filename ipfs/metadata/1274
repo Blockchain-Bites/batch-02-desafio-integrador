@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#1274",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/1274.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO ALIEN"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "TRONCO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY MARRON"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO TURISTA"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "LENTES"
+    }
+  ]
+}

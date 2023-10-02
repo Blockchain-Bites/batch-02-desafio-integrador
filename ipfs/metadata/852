@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#852",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/852.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO FUEGO"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "HUACO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY MARRON"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO PERU"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "LENTES"
+    }
+  ]
+}

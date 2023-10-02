@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#1519",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/1519.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO PACHACUY"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "HUACO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY MARRON"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "FORASTERO"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "BROMA"
+    }
+  ]
+}

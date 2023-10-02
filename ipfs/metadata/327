@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#327",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/327.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "METAVERSO"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "METAL"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY ROSA"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "CHULLO CAJAMARCA"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "LENTES"
+    }
+  ]
+}

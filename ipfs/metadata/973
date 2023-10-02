@@ -1,0 +1,27 @@
+{
+  "name": "MOCHE#973",
+  "description": "Escoger un nombre para tu colección",
+  "image": "ipfs://[enter the CID here]/973.png",
+  "attributes": [
+    {
+      "trait_type": "MANTO",
+      "value": "MANTO SIERRA"
+    },
+    {
+      "trait_type": "BANCO",
+      "value": "TRONCO"
+    },
+    {
+      "trait_type": "CUY",
+      "value": "CUY FUEGO"
+    },
+    {
+      "trait_type": "CHULLO",
+      "value": "GORRO PACHACUY"
+    },
+    {
+      "trait_type": "CARA",
+      "value": "OJOS BASE"
+    }
+  ]
+}
