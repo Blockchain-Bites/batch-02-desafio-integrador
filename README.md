@@ -135,7 +135,7 @@ Para asegurar la conveniencia del usuario y éxito de tu proyecto, has creado un
 
 **De Polygon (`Mumbai`)  a Ethereum (`Goerli`):**
 
-* El sentinel (`Mumbai`) escucha los eventos `Burn` de `Public Sale`. El autotask ejecuta el script que acuña `10,000 BBTKN` en Polygon (`Mumbai`) en el contrato del token `BBTKN`. El relayer (`Goerli`) será el único que puede firmar el método `mint()` para acuñar `BBTKN` a la billetera respectiva. El relayer debe tener el rol de `MINTER_ROLE` para poder acuñar.
+* El sentinel (`Mumbai`) escucha los eventos `Burn` del contrato `NFT`. El autotask ejecuta el script que acuña `10,000 BBTKN` en `Goerli` en el contrato del token `BBTKN`. El relayer (`Goerli`) será el único que puede firmar el método `mint()` para acuñar `BBTKN` a la billetera respectiva. El relayer debe tener el rol de `MINTER_ROLE` para poder acuñar.
 
 ### 6 - IPFS
 
