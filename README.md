@@ -4,7 +4,7 @@
 
 Estás a punto de lanzar una colección de activos digitales en la red más popular para NFTs: Polygon (`Mumbai`). Para lograr ello se usará un contrato que implementa el estándar ERC721 con una cantidad de 2000 NFTs. Las estrategias para acuñación incluyen airdrop con lista blanca y compra directa.
 
-Ethereum es la red más líquida en términos financieros. Hasta el día de hoy tiene el más alto total valor capturado (total value locked - TVL) en comparación con otros otros Blockchain. Tus clientes poseen sus dólares cripto (`USDC`) aquí. Dicha razón te motivó a crear una capa intermedia para poder realizar operaciones cross-chain.
+Ethereum es la red más líquida en términos financieros. Hasta el día de hoy tiene el más alto total valor capturado (total value locked - TVL) en comparación con otros Blockchain. Tus clientes poseen sus dólares cripto (`USDC`) aquí. Dicha razón te motivó a crear una capa intermedia para poder realizar operaciones cross-chain.
 
 Como parte de este lanzamiento, decidiste crear tu propio token llamado `BBites Token - BBTKN`. Lograr que este token adquiera un valor con el tiempo será clave para darle sostenibilidad al proyecto. Por eso decidiste que este token jugará un papel crucial al momento de adquirir los NFTs.
 
@@ -12,7 +12,7 @@ Una porción de los NFTs podrán ser comprados directamente en Ethereum (`Goerli
 
 ## Estrategias de acuñación de NFTs
 
-Existen tres maneras de adquirir los activos digitales en la red Polygon (`Mumbai`) y son las siguientes:
+Existen tres maneras de adquirir los activos digitales y son las siguientes:
 
 1. **Usando `BBTKN` o `USDC`**: Las compradores pueden dirigirse al contrato de compra y venta de NFTs (`Public Sale`) en la red Ethereum (`Goerli`) y usar los tokens `BBTKN` o `USDC` para adquirir NFTs. Los únicos tokens a la venta en esta modalidad van del id `0` al `699` (inclusivo) y tienen diferentes rangos de precio. Los tokens `BBTKN` se deducen de la billeterá del comprador y se transfieren al contrato `Public Sale`. Se dispara un evento para que en Mumbai sea acuñado el NFT con el id que acaba de ser comprado. Si se usa `USDC` para pagar, internamente el contrato `Public Sale` primero convierte el `USDC` a una cantidad exacta de `BBTKN` (usando Uniswap) para pagar por el NFT.
 2. **Usando `ether`**: Los tokens que van del id `700` al `999` (inclusivo) pueden ser comprados depositando `0.01` ether al contrato de `Public Sale`. Si el usuario llama al método `purchaseWithEtherAndId(uint256 _id) public` del contrato `Public Sale`, el usuario puede comprar dicho _id del rango mencionado si está disponible. Sin embargo, el usuario también puede optar por enviar `ether` a `Public Sale` sin ejecutar ningún metodo. En dicho caso, de manera aleatoria el contrato escoge un id disponible en el rango `700` a `999` (inclusivo). Este id que es adquirido mediante `ether` se envía en un evento a la red Polygon (`Mumbai`) para que se acuñe dicho NFT.
