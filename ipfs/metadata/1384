@@ -1,7 +1,7 @@
 {
   "name": "MOCHE#1384",
-  "description": "Escoger un nombre para tu colección",
-  "image": "ipfs://[enter the CID here]/1384.png",
+  "description": "Cuy Collection for the Blockchain Bites Bootcamp Challenge",
+  "image": "ipfs://QmWJ3udcvB2XjvgWjcn8YrC7w8VEL2VWaUMq1x6Ns4t29k/1384.png",
   "attributes": [
     {
       "trait_type": "MANTO",
