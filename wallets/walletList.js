@@ -19,7 +19,7 @@ module.exports = [
   },
   {
     id: 1003,
-    address: "0x557D3D3FEA049d8683E3f709c1A9c93B6177dCA9",
+    address: "0x7CCF2C3630EA896A36CA1a58cc5809e2322B1074",
     privateKey:
       "0x0b396df9e43ed177a9ecc7521c462d1a32ffb8917bc961dc21afd47ee439f019",
   },
@@ -31,7 +31,7 @@ module.exports = [
   },
   {
     id: 1005,
-    address: "0x778c86C311d1B9445B993970df23AAA1b8b09CEE",
+    address: "0xF90a9359f2422b6885c900091f2aCc93E0933B7a",
     privateKey:
       "0x6b9347ca3ef47dff8a9eba2f54d5b3d74c2db82bab3dfe00ff05b9f0ef368529",
   },
